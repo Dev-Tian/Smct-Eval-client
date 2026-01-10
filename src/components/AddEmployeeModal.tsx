@@ -190,6 +190,7 @@ const AddEmployeeModal: React.FC<AddEmployeeModalProps> = ({
           });
           setErrors(backendErrors);
         }
+        setIsSaving(false);
       }
     }
   };
